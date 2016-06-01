@@ -32,11 +32,15 @@ $ cordova plugin add cordova-plugin-media
 $ ionic plugin add cordova-plugin-camera
 ```
 
-### Çalıştırmak
+### Çalıştır
 
 `$ ionic run android` komutu ile cihaz üzerinde çalıştırılabilir.
 
 `$ ionic emulate android` komutu ile emulatör üzerinde çalıştırılabilir.
+
+# Ekran Görüntüleri
+
+![screenshots](https://github.com/omfaer/face_detection/blob/master/cv_fd.png)
 
 # Nasıl Hazırlandı?
 
