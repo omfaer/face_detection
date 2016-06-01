@@ -2,9 +2,41 @@
 
 Ionic için kurulum ve sdk ayarlamalarının yapıldığını varsayarsak:
 
-`ionic run android` komutu ile cihaz üzerinde çalıştırılabilir.
+### Versiyon Bilgileri
 
-`ionic emulate android` komutu ile emulatör üzerinde çalıştırılabilir.
+`$ ionic -v`
+
+`1.7.15`
+
+`$ cordova -v`
+
+`6.2.0`
+
+**Kullanılacak platform eklenmeli.**
+
+```bash
+$ cordova platform add android
+```
+
+### Bağımlılıklar
+
+```bash
+$ cordova plugin add cordova-plugin-camera
+
+$ cordova plugin add cordova-plugin-file-transfer
+
+$ cordova plugin add cordova-plugin-file
+
+$ cordova plugin add cordova-plugin-media
+
+$ ionic plugin add cordova-plugin-camera
+```
+
+### Çalıştırmak
+
+`$ ionic run android` komutu ile cihaz üzerinde çalıştırılabilir.
+
+`$ ionic emulate android` komutu ile emulatör üzerinde çalıştırılabilir.
 
 # Nasıl Hazırlandı?
 
