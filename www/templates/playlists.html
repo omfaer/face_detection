@@ -1,0 +1,22 @@
+<ion-view view-title="Image">
+  <ion-content ng-controller="CameraCtrl">
+    <div class="list card">
+      <div class="item-image">
+      	<img ng-src="{{pictureUrl}}">
+        <!-- <img ng-show="pictureUrl !== undefined" ng-src="{{pictureUrl}}"> -->
+        <!-- <img ng-show="pictureUrl === undefined" ng-src="http://placehold.it/300x300"> -->
+      </div>
+    </div>
+    <div class="padding">
+      <button ng-click="takePicture()" class="button button-block button-calm"> Take Photo </button>
+      <button ng-hide="hide" ng-click="uploadPicture()" class="button button-block button-calm"> Upload Photo </button>
+      {{b}}<br>
+      {{c}}
+    </div>
+    <div class="list card">
+      <div class="item-image">
+        <img ng-src="{{detect_faces}}" >
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
